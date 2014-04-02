@@ -1,0 +1,13 @@
+Create new branch and switch to it "locally":
+git checkout -b branchName
+or
+git branch branchName    "create branch"
+git checkout branchName  "switch to branch"
+
+Push branch to git repo:
+git push -u origin branchName
+
+Delete branch:
+switch to master
+git push origin :branchName   "remove from repo on github"
+git branch -d branchName      "remove from local machine, D instead of d force delete even if there are unmerged files"
