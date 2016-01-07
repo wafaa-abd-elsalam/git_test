@@ -11,3 +11,10 @@ Delete branch:
 switch to master
 git push origin :branchName   "remove from repo on github"
 git branch -d branchName      "remove from local machine, D instead of d force delete even if there are unmerged files"
+
+Merging a branch to master:
+switch to master
+git merge branchName
+if there is a conflict, resolve manually and git add .
+git commit
+git push
